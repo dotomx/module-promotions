@@ -1,0 +1,22 @@
+{
+    "name": "dotomx/module-promotions",
+    "description": "Enabling Payment Method as condition for Mkt promotions",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "japhet@doto.com.mx",
+            "name": "Japhet Perez"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dotomx\\Promotions\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
