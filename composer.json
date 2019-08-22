@@ -3,6 +3,7 @@
     "description": "Enabling Payment Method as condition for Mkt promotions",
     "type": "magento2-module",
     "license": "GPL-3.0",
+    "homepage": "https://github.com/dotomx/module-promotions",
     "authors": [
         {
             "email": "japhet@doto.com.mx",
