@@ -2,6 +2,7 @@
     "name": "dotomx/module-promotions",
     "description": "Enabling Payment Method as condition for Mkt promotions",
     "type": "magento2-module",
+    "version": "1.0.0",
     "license": "GPL-3.0",
     "homepage": "https://github.com/dotomx/module-promotions",
     "authors": [
@@ -11,7 +12,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "~7.1.3|~7.2.0",
+        "magento/framework": "~100.0.4"
+    },
     "autoload": {
         "psr-4": {
             "Dotomx\\Promotions\\": ""
